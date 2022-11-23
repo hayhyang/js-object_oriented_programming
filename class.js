@@ -7,7 +7,7 @@ export default class Person {
   }
 
   sum() {
-    return "prototype " + (this.first + this.second);
+    return this.first + this.second;
   }
 }
 

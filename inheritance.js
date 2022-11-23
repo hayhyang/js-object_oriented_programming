@@ -3,7 +3,7 @@
 
 import Person from "./class.js";
 
-class PersonPlus extends Person {
+export default class PersonPlus extends Person {
   avg() {
     return (this.first + this.second) / 2;
   }
