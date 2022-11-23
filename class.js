@@ -5,8 +5,15 @@ class Person {
     this.first = first;
     this.second = second;
   }
+
+  sum() {
+    return "prototype " + (this.first + this.second);
+  }
 }
 
 const kim = new Person("kim", 10, 20);
 
-console.log("kim", kim);
+const lee = new Person("lee", 15, 20);
+
+console.log("kim.sum", kim.sum());
+console.log("lee.sum", lee.sum());
