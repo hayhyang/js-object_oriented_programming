@@ -1,0 +1,20 @@
+{
+  "name": "js-object_oriented_programming",
+  "version": "1.0.0",
+  "description": "## 객체란?",
+  "main": "array_object.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayhyang/js-object_oriented_programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayhyang/js-object_oriented_programming/issues"
+  },
+  "homepage": "https://github.com/hayhyang/js-object_oriented_programming#readme"
+}
