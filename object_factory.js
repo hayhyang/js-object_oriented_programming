@@ -1,4 +1,5 @@
 // constructor funtion(생성자 함수)를 사용해서 객체를 생성
+// 생성자 함수의 역할 1. 객체를 만든다. 2. 객체의 초기 상태를 세팅한다.
 
 function Person(name, first, second, third) {
   this.name = name;
